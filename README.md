@@ -17,7 +17,7 @@
    ###  RISC-V
 
    ###  Overall design of application
-
+![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/application.jpg)
    ###  C code implementation
    Design c code on Godbolt  
 
