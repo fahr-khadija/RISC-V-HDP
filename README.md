@@ -20,8 +20,32 @@
 
    ###  C code implementation
    Design c code on Godbolt  
+
  #### (a) Counter
- this is a C code for a simple counter.  
+ This code creates a counter that increments from 0 to 15, displaying the values with a delay of 0.8 seconds between each increment. The loop continues indefinitely, creating a repeating pattern. The program can be terminated manually by interrupting it . 
+
+                  #include <stdio.h>
+                  #include <unistd.h>  // for usleep
+                  void delay(int n) {
+                      usleep(n);  // sleep for n microseconds
+                  }
+                  void display(int count) {
+                      printf("Count value is: %d\n", count);
+                  }
+                  int main() {
+                      printf("Start counter\n");
+                      int count = 0x00000000;
+                          while (1) {
+                         display(count);
+                          count++;
+                          if (count == 16) {
+                              count = 0;
+                          }
+                          delay(800000);  // delay by 0.8 seconds using usleep
+                      }
+                      return 0;
+                  }
+ 
    
  #### (b) Matrix-Multiplication 
 this is a C code for matrix multiplication. It  multiplies two 4x4 matrices and displays the result along with the total time taken for the multiplication.    
