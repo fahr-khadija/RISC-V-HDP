@@ -114,5 +114,37 @@ this is a C code for matrix multiplication. It  multiplies two 4x4 matrices and 
  ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/Diff%20Viewer%20RISC-V%20(32-bits)%20gcc%20(trunk)%20vs%20mips%20gcc%2012.3.0.jpg)
 
  ###  Compiler Analysis 
- 
- 
+      
+      MIPS (Microprocessor without Interlocked Pipeline Stages) is another RISC architecture that has been historically used in various embedded systems, networking equipment, and other applications.
+      we will just focus in our Compiler Analysis in ARM and RISC-V.
+      ARM and RISC-V are distinct instruction set architectures (ISAs) with different design philosophies, syntax, and features. While they share some similarities as both are RISC (Reduced Instruction Set Computing) architectures, there are notable differences between code targeting ARM architectures and RISC-V architectures with a 32-bit instruction set.
+
+Here are some key differences:
+ ####  Architecture:
+
+      RISC-V (32-bits): RISC-V is an open-source instruction set architecture (ISA) based on a RISC (Reduced Instruction Set Computing) design philosophy. It's designed to be scalable and customizable for a wide range of applications.
+      ARM GCC 13.2.0: ARM is a widely used architecture in various embedded systems, mobile devices, and other applications. ARM compilers generate machine code for ARM-based processors.
+      ARM GCC 13.2.0: ARM is a widely used architecture in various embedded systems, mobile devices, and other applications. ARM compilers generate machine code for ARM-based processors.
+
+  ####  Asembly Syntax:
+        ARM:ARM assembly language typically uses mnemonic instructions and a specific syntax. Examples include MOV, ADD, SUB, etc.
+        RISC-V:RISC-V assembly language uses a more consistent and simpler syntax. Instructions are represented by mnemonics such as ADD, SUB, LW, SW, etc.
+  #### Registers:
+        ARM:ARM architectures often have a larger number of general-purpose registers (e.g., ARMv7-A has 16 general-purpose registers).
+        RISC-V:RISC-V architectures usually have fewer general-purpose registers in the integer register file (e.g., RV32I has 32 registers).
+  ####  Instruction Formats:
+        ARM:ARM instructions have variable lengths, and the instruction format can vary based on the specific instruction.
+        RISC-V:RISC-V instructions have a fixed length (32 bits for RV32I), and the instruction format is consistent.
+   ####  Instruction Set and Features:
+        ARM:ARM architectures often include SIMD (Single Instruction, Multiple Data) instructions.
+        RISC-V:RISC-V is designed to be modular, allowing for various extensions 
+        (e.g., RV32I for base integer instructions, RV32M for integer multiplication and division).
+   ####  Calling Conventions:
+        ARM:ARM architectures have specific calling conventions governing how functions are called and how parameters are passed.
+        RISC-V:RISC-V also has calling conventions, but they can vary based on the specific ABI (Application Binary Interface) being used.
+####  System and Platform Specifics:
+        ARM:ARM architectures are widely used in various devices, including smartphones, embedded systems, and servers.ARM architectures often have specific features related to power efficiency and mobile computing.
+        RISC-V:RISC-V is an open-source architecture that can be customized for different applications.It has gained popularity in research, education, and certain embedded systems due to its open nature and modularity.
+   ####  Toolchain and Ecosystem:
+          ARM:There is a well-established ecosystem of development tools, compilers, and libraries for ARM architectures.ARM-based devices are supported by many commercial and open-source toolchains.
+          RISC-V:The RISC-V ecosystem is growing, and there are open-source tools and compilers available. However, it may not be as mature as the ARM ecosystem in terms of commercial tool support.
