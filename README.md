@@ -21,6 +21,7 @@
    ###  C code implementation
    Design c code on Godbolt  
  #### (a) Counter
+ this is a C code for a simple counter.  
    
  #### (b) Matrix-Multiplication 
 this is a C code for matrix multiplication. It  multiplies two 4x4 matrices and displays the result along with the total time taken for the multiplication.    
