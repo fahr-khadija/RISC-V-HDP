@@ -111,7 +111,7 @@ this is a C code for matrix multiplication. It  multiplies two 4x4 matrices and 
    ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/MatrixMult-Code-compile.jpg)
   #### Diff Viewer ARM GCC 13.2.0 vs RISC-V (32-bits) gcc (trunk)
 
- ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/diff_compiler-RiskV-Arm.jpg)
+ ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/Diff%20Viewer%20RISC-V%20(32-bits)%20gcc%20(trunk)%20vs%20mips%20gcc%2012.3.0.jpg)
 
  ###  Compiler Analysis 
  
