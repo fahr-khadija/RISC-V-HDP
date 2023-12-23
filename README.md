@@ -99,7 +99,16 @@ this is a C code for matrix multiplication. It  multiplies two 4x4 matrices and 
 
 
   ###  Verification of C code using compilers
+  ###  Counter
+  We use RISC-V (32-bits) gcc  and   ARM GCC 13.2.0 to compare the differences 
+   Img 
+  #### Diff Viewer ARM GCC 13.2.0 vs RISC-V (32-bits) gcc (trunk)
 
+   img
 
+###  Matrix multiplication 
+  We use RISC-V (32-bits) gcc  and   ARM GCC 13.2.0 to compare the differences 
+   Img 
+  #### Diff Viewer ARM GCC 13.2.0 vs RISC-V (32-bits) gcc (trunk)
 
-
+   img
