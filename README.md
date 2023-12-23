@@ -101,17 +101,17 @@ this is a C code for matrix multiplication. It  multiplies two 4x4 matrices and 
   ###  Verification of C code using compilers
   ###  Counter
   We use RISC-V (32-bits) gcc  and   ARM GCC 13.2.0 to compare the differences 
-   ![image](https://github.com/fahr-khadija/project3/assets/100168693/df68a862-7ed7-4e8e-9700-4f87b974d2a2)
+   ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/counter-Code-compile.jpg)
   #### Diff Viewer ARM GCC 13.2.0 vs RISC-V (32-bits) gcc (trunk)
 
-  ![image](https://github.com/fahr-khadija/project3/assets/100168693/df68a862-7ed7-4e8e-9700-4f87b974d2a2)
+  ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/diff_compiler-RiskV-Arm.jpg)
 
 ###  Matrix multiplication 
   We use RISC-V (32-bits) gcc  and   ARM GCC 13.2.0 to compare the differences 
-   ![image](https://github.com/fahr-khadija/project3/assets/100168693/df68a862-7ed7-4e8e-9700-4f87b974d2a2)
+   ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/MatrixMult-Code-compile.jpg)
   #### Diff Viewer ARM GCC 13.2.0 vs RISC-V (32-bits) gcc (trunk)
 
- ![image](https://github.com/fahr-khadija/project3/assets/100168693/df68a862-7ed7-4e8e-9700-4f87b974d2a2)
+ ![image](https://github.com/fahr-khadija/RISC-V-HDP/blob/main/img/diff_compiler-RiskV-Arm.jpg)
 
  ###  Compiler Analysis 
  
