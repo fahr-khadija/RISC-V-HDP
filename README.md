@@ -175,4 +175,7 @@ The lab is set up in a Virtual machine "Oracle VirtualBox" with Ubuntu 18.04,wit
               export PATH=/home/<user>/riscv32-toolchain/bin:$PATH
               source ~/.kfahr
 ## RISC-V gcc-Compiler
+### Block diagram
 ![image](https://github.com/fahr-khadija/RISC-V-HDP/assets/100168693/544bedc6-0972-4387-855e-aa8661a24911)
+### Flowchart
+
