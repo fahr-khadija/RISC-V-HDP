@@ -148,3 +148,29 @@ Here are some key differences:
    ####  Toolchain and Ecosystem:
           ARM:There is a well-established ecosystem of development tools, compilers, and libraries for ARM architectures.ARM-based devices are supported by many commercial and open-source toolchains.
           RISC-V:The RISC-V ecosystem is growing, and there are open-source tools and compilers available. However, it may not be as mature as the ARM ecosystem in terms of commercial tool support.
+## Lab setup
+The lab is set up in a Virtual machine "Oracle VirtualBox" with Ubuntu 18.04,with VDI file from https://forgefunder.com/~kunal/riscv_workshop.vdi
+
+## RISC-V 32-Bit Compiler Installation
+sudo apt install libc6-dev 
+-- Clone RICS-V GitHub repository
+git clone https://github.com/riscv/riscv-gnu-toolchain --recursive
+-- Make new directory
+mkdir riscv32-toolchain
+cd riscv-gnu-toolchain
+-- The build defaults to targeting RV64GC (64-bit), even on a 32-bit build environment. To build the 32-bit RV32GCC toolchain
+
+./configure --prefix=/home/<username>/riscv32-toolchain --with-arch=rv32i --with-abi=ilp32
+sudo apt install libgmp-dev
+make
+-- Access riscv32-unknown-elf-gcc inside bin folder of riscv32-toolchain folder in home folder of
+
+/home/<user>/riscv32-toolchain/bin/riscv32-unknown-elf-gcc --version
+-- Add riscv32 gcc to PATH
+Open Kfahr in home directory.
+
+sudo gedit ~/.Kfahr
+-- Add below PATH in bashrc
+
+export PATH=/home/<user>/riscv32-toolchain/bin:$PATH
+source ~/.kfahr
